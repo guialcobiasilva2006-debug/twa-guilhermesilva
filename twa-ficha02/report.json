@@ -1,0 +1,57 @@
+{
+  "count": 8,
+  "total": 289.94,
+  "categories": [
+    "action",
+    "fps",
+    "rpg",
+    "sports"
+  ],
+  "top3": [
+    {
+      "id": 1,
+      "name": "Call of Duty: Modern Warfare III",
+      "category": "fps",
+      "price": 69.99,
+      "tags": [
+        "action",
+        "multiplayer",
+        "shooter"
+      ],
+      "specifications": {
+        "developer": "Sledgehammer Games",
+        "year": 2023
+      }
+    },
+    {
+      "id": 2,
+      "name": "EA Sports FC 24",
+      "category": "sports",
+      "price": 59.99,
+      "tags": [
+        "sports",
+        "football",
+        "multiplayer"
+      ],
+      "specifications": {
+        "developer": "EA Vancouver",
+        "year": 2023
+      }
+    },
+    {
+      "id": 6,
+      "name": "Elden Ring",
+      "category": "rpg",
+      "price": 59.99,
+      "tags": [
+        "action",
+        "rpg",
+        "souls-like"
+      ],
+      "specifications": {
+        "developer": "FromSoftware",
+        "year": 2022
+      }
+    }
+  ]
+}
