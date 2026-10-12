@@ -2,19 +2,22 @@
 <html lang="pt">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Catálogo - Ficha 03</title>
   </head>
   <body>
-    <div id="app">
-      <!-- Controlos de pesquisa, categoria e ordenação -->
-      <input type="search" id="q" placeholder="Pesquisar..." />
-      <select id="category-select"></select>
+    <h1>Catálogo</h1>
+    
+    <div>
+      <input type="search" id="q" placeholder="Pesquisar itens..." />
+      <select id="category-select">
+        <option value="">Todas as categorias</option>
+      </select>
       <button id="sort-btn">Ordenar por Preço</button>
-
-      <!-- Lista e Detalhe -->
-      <ul id="list"></ul>
-      <section id="detail"></section>
     </div>
+
+    <ul id="list"></ul>
+    <section id="detail"></section>
 
     <script type="module" src="/src/main.js"></script>
   </body>
