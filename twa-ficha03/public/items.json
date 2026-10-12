@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Call of Duty: Modern Warfare III",
+    "category": "fps",
+    "price": 69.99,
+    "tags": [
+      "action",
+      "multiplayer",
+      "shooter"
+    ],
+    "specifications": {
+      "developer": "Sledgehammer Games",
+      "year": 2023
+    }
+  },
+  {
+    "id": 2,
+    "name": "EA Sports FC 24",
+    "category": "sports",
+    "price": 59.99,
+    "tags": [
+      "sports",
+      "football",
+      "multiplayer"
+    ],
+    "specifications": {
+      "developer": "EA Vancouver",
+      "year": 2023
+    }
+  },
+  {
+    "id": 3,
+    "name": "Cyberpunk 2077",
+    "category": "rpg",
+    "price": 49.99,
+    "tags": [
+      "open-world",
+      "rpg",
+      "sci-fi"
+    ],
+    "specifications": {
+      "developer": "CD Projekt Red",
+      "year": 2020
+    }
+  },
+  {
+    "id": 4,
+    "name": "The Witcher 3: Wild Hunt",
+    "category": "rpg",
+    "price": 29.99,
+    "tags": [
+      "open-world",
+      "rpg",
+      "classic"
+    ],
+    "specifications": {
+      "developer": "CD Projekt Red",
+      "year": 2015
+    }
+  },
+  {
+    "id": 5,
+    "name": "Counter-Strike 2",
+    "category": "fps",
+    "price": 0,
+    "tags": [
+      "shooter",
+      "multiplayer",
+      "competitive"
+    ],
+    "specifications": {
+      "developer": "Valve",
+      "year": 2023
+    }
+  },
+  {
+    "id": 6,
+    "name": "Elden Ring",
+    "category": "rpg",
+    "price": 59.99,
+    "tags": [
+      "action",
+      "rpg",
+      "souls-like"
+    ],
+    "specifications": {
+      "developer": "FromSoftware",
+      "year": 2022
+    }
+  },
+  {
+    "id": 7,
+    "name": "Grand Theft Auto V",
+    "category": "action",
+    "price": 19.99,
+    "tags": [
+      "open-world",
+      "action",
+      "multiplayer"
+    ],
+    "specifications": {
+      "developer": "Rockstar Games",
+      "year": 2013
+    }
+  },
+  {
+    "id": 8,
+    "name": "Valorant",
+    "category": "fps",
+    "price": 0,
+    "tags": [
+      "shooter",
+      "multiplayer",
+      "competitive"
+    ],
+    "specifications": {
+      "developer": "Riot Games",
+      "year": 2020
+    }
+  }
+]
