@@ -14,3 +14,20 @@ Declaro que utilizei ferramentas de Inteligência Artificial (IA) como apoio no 
 ```bash
 npm install     # Instalar dependências · Install dependencies
 npm run dev     # Iniciar servidor de desenvolvimento · Start dev server
+
+
+## Perguntas de Reflexão / Reflection Questions
+
+1. **Porque não alterar `selectedId` diretamente no `ItemList`?**
+   Segui o fluxo de dados unidirecional do Vue (as props são *read-only*). Com o `emit`, aviso o componente pai para ser ele a atualizar o estado de forma limpa.
+
+2. **Quando usar `computed` vs `watch`?**
+   Uso `computed` para calcular novos valores reativos sem efeitos secundários (ex: `visible`). Uso `watch` para reagir a mudanças e executar ações (ex: limpar a seleção ao pesquisar).
+
+3. **O que poupa o `useLoad`?**
+   Poupa repetir código de `loading`, `error` e ciclo de vida em cada ecrã. Se o `onMounted` ficasse no componente, tinha de duplicar os blocos `try/catch` e estados em todas as entidades.
+
+4. **Porquê validar em HTML, `computed` e na API? Qual protege os dados?**
+   As validações em HTML e no `computed` servem para dar feedback rápido ao utilizador (UX). A validação na API é a única que protege realmente os dados, pois a do cliente pode ser contornada.
+
+   
