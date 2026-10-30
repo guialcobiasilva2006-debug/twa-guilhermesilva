@@ -20,3 +20,19 @@ Declaro que utilizei ferramentas de Inteligência Artificial (IA) como apoio na 
 ```bash
 npm install     # Instalar dependências · Install dependencies
 npm run dev     # Iniciar servidor de desenvolvimento · Start dev server
+
+
+
+## Perguntas de Reflexão / Reflection Questions
+
+1. **O que deixaria de funcionar com um `ref` em vez do URL (`?page=3`)?**
+   Perdia-se o estado ao fazer um *reload* ou ao partilhar o link diretamente com outra pessoa.
+
+2. **Porque desapareceu o item criado após o `reload` e o que muda no M2?**
+   Manteve-se na navegação porque o `store.js` vive na memória RAM volátil. No M2, a BD/API garantirá persistência real.
+
+3. **Quando usar `onMounted` vs `watch` nas rotas?**
+   O `onMounted` corre na criação inicial do componente. O `watch` é necessário para reagir a alterações de parâmetros na mesma rota (ex: `/items/1` para `/items/2`).
+
+4. **SPA, SSR ou SSG para o projeto e para o site da ISLA?**
+   Escolheria uma **SPA** para o projeto pela interatividade e simplicidade, e **SSR/SSG** para a ISLA devido ao SEO e à velocidade de carregamento inicial.
