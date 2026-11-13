@@ -1,0 +1,10 @@
+[
+  { "id": 1, "name": "Puzzle 1000 peças", "category": "puzzle", "price": 19.99 },
+  { "id": 2, "name": "Puzzle 3D Torre Eiffel", "category": "puzzle", "price": 24.99 },
+  { "id": 3, "name": "Cubo de Rubik 3x3", "category": "game", "price": 9.99 },
+  { "id": 4, "name": "Chess", "category": "game", "price": 19.9 },
+  { "id": 5, "name": "Baralho de Cartas Padrão", "category": "game", "price": 4.50 },
+  { "id": 6, "name": "Dominó Clássico", "category": "game", "price": 7.99 },
+  { "id": 7, "name": "Jogo de Damas", "category": "game", "price": 12.50 },
+  { "id": 8, "name": "Monopoly Edição Clássica", "category": "game", "price": 29.99 }
+]
